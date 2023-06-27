@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO_DO LIST</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- outermost container for background css -->
+    <div class="container">
+
+        <div class="to-docontainer">
+            <h2>To Do List</h2>
+            <!-- container for the input and add button -->
+            <div class="add-input">
+                <input type="text" id="input-box" placeholder="Add Your Task">
+                <!-- this add handler will add the new tasks -->
+                <button onclick="addhandler()">ADD</button>
+            </div>
+            <!-- List for the tasks which user will add -->
+            <ul id="list-container">
+                 <!-- here list will be added by the user and will be shown usinh js -->
+                <!-- <li class="checked">Task1</li> -->
+          
+            </ul>
+        </div>
+    </div>
+
+
+<script src="code.js"></script>
+</body>
+
+</html>
